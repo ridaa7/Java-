@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+public class Second {
+
+   public static void main(String[] args)
+
+{
+   int i,a;
+
+   System.out.print("Input is: ");
+   Scanner scan = new Scanner(System.in);
+		    a = scan.nextInt();
+  System.out.println ("Output is :");
+   for(i=1;i<=a;i++)
+{
+     System.out.println (2*i-1);
+}
+}
+}
